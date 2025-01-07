@@ -1,0 +1,53 @@
+{
+  "name": "@mattyreacts/aus-state-selector",
+  "version": "1.0.0",
+  "description": "A React component that shows a map of Australia divided by states with the ability to click to select a state",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest --env=jsdom"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx|js|jsx)$": "ts-jest",
+      "^.+\\.(js|jsx)$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattyreacts/aus-state-selector.git"
+  },
+  "keywords": [
+    "React",
+    "Australia",
+    "State",
+    "Selector"
+  ],
+  "author": "Mathew Crothers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattyreacts/aus-state-selector/issues"
+  },
+  "homepage": "https://github.com/mattyreacts/aus-state-selector#readme",
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.1.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.0.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "@emotion/css": "^11.13.5"
+  }
+}
