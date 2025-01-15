@@ -76,6 +76,22 @@ All properties are optional.
 | vicHoverColour | string | Hover colour for Victoria, defaultHoverColour used if not provided | |
 | tasColour | string | Colour for Tasmania, defaultColour used if not provided | |
 | tasHoverColour | string | Hover colour for Tasmania, defaultHoverColour used if not provided | |
+| waText | string | Text to display in Western Australia on the map | |
+| waTextColour | string | Colour for the text in Western Australia, borderColour used if not provided | |
+| ntText | string | Text to display in Northern Territory on the map | |
+| ntTextColour | string | Colour for the text in Norther Territory, borderColour used if not provided | |
+| saText | string | Text to display in South Australia on the map | |
+| saTextColour | string | Colour for the text in South Australia, borderColour used if not provided | |
+| qldText | string | Text to display in Queensland on the map | |
+| qldTextColour | string | Colour for the text in Queensland, borderColour used if not provided | |
+| nswText | string | Text to display in New South Wales on the map | |
+| nswTextColour | string | Colour for the text in New South Wales, borderColour used if not provided | |
+| actText | string | Text to display in Australian Capital Territory on the map | |
+| actTextColour | string | Colour for the text in Australian Capital Territory, borderColour used if not provided | |
+| vicText | string | Text to display in Victoria on the map | |
+| vicTextColour | string | Colour for the text in Victoria, borderColour used if not provided | |
+| tasText | string | Text to display in Tasmania on the map | |
+| tasTextColour | string | Colour for the text in Tasmania, borderColour used if not provided | |
 
 ## Example
 ```tsx
